@@ -5,6 +5,7 @@ import $ from 'jquery';
 import './business-logic.js';
 
 
+$(document).ready(function() {
   $("#journalForm").submit(function(event){
     event.preventDefault();
 
