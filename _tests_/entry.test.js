@@ -17,8 +17,7 @@ describe('Entry', () => {
     expect(reusableEntry.wordCount()).toEqual(2);
   });
 
-  // test('should return the number of vowels and consonants in the entry', () => {
-  //   const entry = new Entry('Greetings', 'Hi there!');
-  //   expect(entry.vowelConsonantCount()).toEqual("Vowels: 3, Consonants:4");
-  // });
+  test('should return the number of vowels and consonants in the entry', () => {
+    expect(reusableEntry.vowelConsonantCount()).toEqual("Vowels: 3, Consonants: 4");
+  });
 });

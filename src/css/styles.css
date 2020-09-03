@@ -9,3 +9,7 @@ body {
 .returnDiv {
  display: none;
 }
+
+img {
+  width: 30%;
+}
